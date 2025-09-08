@@ -1,5 +1,7 @@
 module github.com/khulnasoft-labs/go-bitbucket
 
-go 1.14
+go 1.24.0
 
-require golang.org/x/oauth2 v0.0.0-20200902213428-5d25da1a8d43
+require golang.org/x/oauth2 v0.31.0
+
+require cloud.google.com/go/compute/metadata v0.3.0 // indirect
